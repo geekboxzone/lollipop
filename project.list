@@ -31,9 +31,7 @@ device/google/accessory/arduino
 device/google/accessory/demokit
 device/google/atv
 device/htc/flounder
-device/htc/flounder-kernel
 device/moto/shamu
-device/moto/shamu-kernel
 device/rockchip/common
 device/rockchip/rk3368
 device/sample
@@ -105,7 +103,6 @@ external/doclava
 external/droiddriver
 external/e2fsprogs
 external/easymock
-external/eclipse-basebuilder
 external/eclipse-windowbuilder
 external/eigen
 external/elfutils
@@ -413,7 +410,6 @@ packages/wallpapers/MusicVisualization
 packages/wallpapers/NoiseField
 packages/wallpapers/PhaseBeam
 pdk
-prebuilts/android-emulator
 prebuilts/clang/darwin-x86/3.1
 prebuilts/clang/darwin-x86/3.2
 prebuilts/clang/darwin-x86/arm/3.3
@@ -424,12 +420,9 @@ prebuilts/clang/darwin-x86/x86/3.3
 prebuilts/clang/linux-x86/3.1
 prebuilts/clang/linux-x86/3.2
 prebuilts/clang/linux-x86/arm/3.3
-prebuilts/clang/linux-x86/host/3.4
-prebuilts/clang/linux-x86/host/3.5
 prebuilts/clang/linux-x86/mips/3.3
 prebuilts/clang/linux-x86/x86/3.3
 prebuilts/devtools
-prebuilts/eclipse
 prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8
 prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9
 prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8
@@ -461,8 +454,6 @@ prebuilts/misc
 prebuilts/ndk
 prebuilts/python/darwin-x86/2.7.5
 prebuilts/python/linux-x86/2.7.5
-prebuilts/qemu-kernel
-prebuilts/sdk
 prebuilts/tools
 rkst
 sdk
