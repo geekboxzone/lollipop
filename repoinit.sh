@@ -2,7 +2,7 @@
 
 lollipop_path=${HOME}/project/geekbox/Lollipop
 repo_prefix=lollipop
-github_urlbase=git@github.com:geekboxzone
+github_urlbase=https://github.com/geekboxzone
 MAXTRYNUM=3
 reponum=1
 trynum=1
