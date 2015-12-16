@@ -77,4 +77,4 @@ git clone $android_urlbase/platform/prebuilts/eclipse -b android-5.1.0_r3 prebui
 git clone $android_urlbase/device/htc/flounder-kernel -b android-5.1.0_r3 device/htc/flounder-kernel
 git clone $android_urlbase/device/moto/shamu-kernel -b android-5.1.0_r3 device/moto/shamu-kernel
 git clone $android_urlbase/platform/prebuilts/android-emulator -b android-5.1.0_r3 prebuilts/android-emulator
-git clone $android_urlbase/platform/prebuilts/qemu-kernel -b android-5.1.0_r3 rebuilts/qemu-kernel
+git clone $android_urlbase/platform/prebuilts/qemu-kernel -b android-5.1.0_r3 prebuilts/qemu-kernel
