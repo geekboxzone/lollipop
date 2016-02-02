@@ -5,7 +5,7 @@
   
   <default remote="aosp" revision="refs/tags/android-5.1.0_r5" sync-j="4"/>
   
-  <project groups="pdk-cw-fs" name="device/common" remote="rk" revision="b155fdb4ee3e0313865809c8fe84b31cec3f3636" upstream="2129421ecacb355e228b0c33ac71e0195d76029a"/>
+  <project groups="pdk-cw-fs" name="device/common" remote="rk" revision="2129421ecacb355e228b0c33ac71e0195d76029a"/>
   <project groups="pdk" name="device/generic/arm64" revision="39249053f37b7f9633eb406af3dbedfea7bf8b3e"/>
   <project groups="pdk" name="device/generic/armv7-a-neon" revision="2a96372d80c693fc28b29328b3e86b65cab9189b"/>
   <project groups="pdk" name="device/generic/common" revision="11c092a6cbfcf6207f07a9a8e3398e747e7f5461"/>
@@ -28,11 +28,11 @@
   <project groups="device,shamu" name="device/moto/shamu-kernel" revision="dbc55200cab46833164bcaa5535ceb0d4909e6c9"/>
   <project groups="pdk" name="device/sample" revision="6a9816fafdb2b78bbb8a1f9f9509ead0a8fcd12c"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="a0f99286d0909f7a30b0bee742bec2a0b62c4dd0"/>
-  <project groups="pdk" name="platform/art" path="art" remote="rk" revision="8443a2bdd17693ee6b05c80121069c039c1e91cc"/>
+  <project groups="pdk" name="platform/art" path="art" remote="rk" revision="8aada757910ff828256ae60dce4600c7a897d94c"/>
   <project groups="pdk" name="platform/bionic" path="bionic" remote="rk" revision="cdf56a474b8abe4a9b8b1c25078d664df57116bd"/>
   <project groups="pdk-cw-fs" name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="3c491d6efb8ff2534a6934702760a6273f197918"/>
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" remote="rk" revision="4c2d160c11a6c79dcff01cd0eb43bd49a1caff45"/>
-  <project groups="pdk,tradefed" name="platform/build" path="build" remote="rk" revision="95765c00786a2b4346eda51ccaf1070275c92e17">
+  <project groups="pdk,tradefed" name="platform/build" path="build" remote="rk" revision="e4f60e72a0e7864e3f40851539e74acedfef7acd">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project groups="cts,pdk-cw-fs" name="platform/cts" path="cts" revision="e734883838daaef1726a5dfff3388b77d333a1ac"/>
@@ -235,7 +235,7 @@
   <project groups="pdk-cw-fs" name="platform/external/robolectric" path="external/robolectric" revision="d9d53068f24c9af1a332986dd196c163b3ca897c"/>
   <project groups="pdk" name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be"/>
   <project groups="pdk" name="platform/external/scrypt" path="external/scrypt" revision="dde037b82e5cd6215244e3240dbaad417928eafa"/>
-  <project groups="pdk" name="platform/external/sepolicy" path="external/sepolicy" remote="rk" revision="39111c0f87c4ffea97205b8074d1253be0c9f007" upstream="58cb9425cb903040081c051d4f70f8c9af6dbfb7"/>
+  <project groups="pdk" name="platform/external/sepolicy" path="external/sepolicy" remote="rk" revision="58cb9425cb903040081c051d4f70f8c9af6dbfb7"/>
   <project groups="pdk-cw-fs,qcom_msm8x26" name="platform/external/sfntly" path="external/sfntly" revision="6723e5241a45c6de224c96384a595a1bf5bc5449"/>
   <project groups="pdk-cw-fs,qcom_msm8x26" name="platform/external/skia" path="external/skia" remote="rk" revision="1aa2aa1d5ba6e49dfc093ee7b552e00664eabd4c"/>
   <project groups="pdk-cw-fs" name="platform/external/smack" path="external/smack" revision="d7955ce24d294fb2014c59d11fca184471056f44"/>
@@ -269,7 +269,7 @@
   <project groups="pdk-cw-fs" name="platform/external/zopfli" path="external/zopfli" revision="bb96afe13a50bfc17259dcf56f44e997923c705c"/>
   <project groups="pdk-cw-fs" name="platform/external/zxing" path="external/zxing" revision="2b56cc1c1442ba598ed1ee9c23e8e9eade076e77"/>
   <project groups="pdk" name="platform/frameworks/av" path="frameworks/av" remote="rk" revision="0749f9f8c07bfd0d3f1af02223c638c6a73a7876" upstream="69474a4db2868aaa1d9dc04b71bf64f17b97bd4e"/>
-  <project groups="pdk-cw-fs" name="platform/frameworks/base" path="frameworks/base" remote="rk" revision="53c7f93ff86908f43dfcbafb8c678d46a536398c" upstream="1da4bcb4474203b06f0af587ee229c80fff68630"/>
+  <project groups="pdk-cw-fs" name="platform/frameworks/base" path="frameworks/base" remote="rk" revision="92bfff49e9a976f198ec074e44459a8bc1261ad0" upstream="1da4bcb4474203b06f0af587ee229c80fff68630"/>
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="c5495517b910f995a277d2583fbf65eaec3e65ee"/>
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="48b4262286b854f4fa36d2af98cf8d75e87d4dcb"/>
   <project groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="b6cde4751b8d4d77fa24eec9b5f1bfce0eca1794"/>
@@ -350,7 +350,7 @@
   <project name="platform/packages/apps/Protips" path="packages/apps/Protips" revision="9b6836aabee945b6c7a54796a4e6a7ae735f423c"/>
   <project name="platform/packages/apps/Provision" path="packages/apps/Provision" remote="rk" revision="78ca0db658fe6253d506916e36319e620476f809"/>
   <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="a961289908b6deafcc67c3671ff56d31612197a7"/>
-  <project name="platform/packages/apps/Settings" path="packages/apps/Settings" remote="rk" revision="32244622c4b1c740ff8d878db7ffbf58be029e12" upstream="50ade92d8208a7a51b7b0c6601000680ec5d93ee"/>
+  <project name="platform/packages/apps/Settings" path="packages/apps/Settings" remote="rk" revision="8632701d2cb43d314222acacf83f88c3504d41ae" upstream="50ade92d8208a7a51b7b0c6601000680ec5d93ee"/>
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService" revision="29eae320a4bd222b5ff1c092f84f1aebba88d0b7"/>
   <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" remote="rk" revision="7d15b0d932dd18a4c80e368ac08ac1d7f35e39c9"/>
   <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="4db997871e3f4c3f84660815096e5276b47c5c91"/>
@@ -400,7 +400,7 @@
   <project groups="pdk,linux" name="platform/prebuilts/clang/linux-x86/3.2" path="prebuilts/clang/linux-x86/3.2" revision="471afab478649078ad7c75ec6b252481a59e19b8"/>
   <project groups="arm,linux,pdk-cw-fs" name="platform/prebuilts/clang/linux-x86/arm/3.3" path="prebuilts/clang/linux-x86/arm/3.3" revision="2f6d2db9e2af3507d132cf5d286a42fe1d47f7bc"/>
   <project groups="pdk,linux" name="platform/prebuilts/clang/linux-x86/host/3.4" path="prebuilts/clang/linux-x86/host/3.4" revision="fae26a039f79d780ddedcad07f164d9e6c05fc87"/>
-  <project groups="pdk,linux" name="platform/prebuilts/clang/linux-x86/host/3.5" path="prebuilts/clang/linux-x86/host/3.5" revision="e000eb19e6f5ee9a1ec1ca5410beb74c283dd2b9" upstream="187eba8b5649d25cf3027596b21d412b339bea2f"/>
+  <project groups="pdk,linux" name="platform/prebuilts/clang/linux-x86/host/3.5" path="prebuilts/clang/linux-x86/host/3.5" revision="187eba8b5649d25cf3027596b21d412b339bea2f"/>
   <project groups="linux,mips,pdk-cw-fs" name="platform/prebuilts/clang/linux-x86/mips/3.3" path="prebuilts/clang/linux-x86/mips/3.3" revision="51f8e2760628588fe268438d612d942c30d13fb2"/>
   <project groups="linux,pdk-cw-fs,x86" name="platform/prebuilts/clang/linux-x86/x86/3.3" path="prebuilts/clang/linux-x86/x86/3.3" revision="017a8a67f92a66b29ab17772e50642a7b9d0f8e6"/>
   <project name="platform/prebuilts/devtools" path="prebuilts/devtools" revision="c8a6b65870c7d60777b448dc99b11b383522a4cf"/>
@@ -440,26 +440,26 @@
   <project groups="pdk,tradefed" name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="933020abbd02ddea9d701b6f79f392092b5ba3bf"/>
   <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="5b2be74a88e09e758cb86d18deae9cd29006009a"/>
   <project groups="pdk-cw-fs" name="platform/sdk" path="sdk" revision="7859e2e738542baf96c15e6c8b50bbdb410131b0"/>
-  <project groups="pdk" name="platform/system/core" path="system/core" remote="rk" revision="d4f5fb2b74579e8ea7aa7698aef682dedddcf5b8"/>
+  <project groups="pdk" name="platform/system/core" path="system/core" remote="rk" revision="8579d13d2511d91db56a10ba44cdc1e60b459615"/>
   <project groups="pdk" name="platform/system/extras" path="system/extras" revision="8e9fa76016a34ec53b83157032e38fad06af1135"/>
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster" revision="224da076426f2ab3124f1bd2f6171f43a09876bc"/>
   <project groups="pdk" name="platform/system/media" path="system/media" revision="2d6976f08018613a6206ba74da3142ca4b85bd2d"/>
   <project groups="pdk" name="platform/system/netd" path="system/netd" remote="rk" revision="a49fb60e6009ee650c51cf0724437fa5c81e6fb5"/>
   <project groups="pdk" name="platform/system/security" path="system/security" remote="rk" revision="58f205756efb691cbe159b0d7fe7270d45e184e4"/>
-  <project groups="pdk" name="platform/system/vold" path="system/vold" remote="rk" revision="d645c27ff1fbe22ee92ce047bfc0a3e727270d20" upstream="009b6c14fc12d8157986e1d60f8c2bdc043b3cfa"/>
+  <project groups="pdk" name="platform/system/vold" path="system/vold" remote="rk" revision="e86792f3fe0f6a876efc193af181d99b522f06dc" upstream="f1157443ac0479f053fd6b3d116fdb3b2611d4ce"/>
   <project groups="tools" name="platform/tools/external/fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03"/>
   <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle" revision="d1450838759d6c9f61a736cd9c455fe4437f4a56"/>
   <project name="rk/RKDocs" path="RKDocs" remote="rk" revision="791066bdfb2099f2cb26ca3ed30af3e4b56f35e7"/>
   <project name="rk/RKTools" path="RKTools" remote="rk" revision="c8e81db713002a98760e164273c2cd9c470143ba"/>
-  <project name="rk/device/rockchip/rk3368" path="device/rockchip/rk3368" remote="rk" revision="2c73fda71ca6e5629dd3a3793daa6be69fecf2d2" upstream="cc19f00508f56b1f8167b6d219750800f19cfdf2">
+  <project name="rk/device/rockchip/rk3368" path="device/rockchip/rk3368" remote="rk" revision="49f93d854347aa66e9465d9847da40317ddced9d" upstream="cc19f00508f56b1f8167b6d219750800f19cfdf2">
     <copyfile dest="buildspec.mk" src="buildspec-rk3368-32.mk"/>
   </project>
-  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="298dd579bcce8addbc93aa049774c66d3e7334d3" upstream="b011181444dba4229b298e1eb5e7076c1ddbaab0">
+  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk" revision="3f245e370be887da9b2cb24e660d48e444a67edf" upstream="b011181444dba4229b298e1eb5e7076c1ddbaab0">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
   </project>
   <project name="rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk" revision="bf4818e4640c74f717b391097db5228f396b4db9" upstream="cd0a71906c294219d21c2f37796fc2bf23d79402"/>
-  <project name="rk/hardware/rk29/camera" path="hardware/rockchip/camera" remote="rk" revision="d042686713f9104a119f23f0a96bca2b9b29266f"/>
+  <project name="rk/hardware/rk29/camera" path="hardware/rockchip/camera" remote="rk" revision="6e3f0b7adfc97d64727c52647985a51f8b25132e" upstream="d042686713f9104a119f23f0a96bca2b9b29266f"/>
   <project name="rk/hardware/rk29/gps" path="hardware/rockchip/gps" remote="rk" revision="a2a4b19a1e2fd8a4735c6d7dd36dd30b1cc4e001"/>
   <project name="rk/hardware/rk29/hdmicec" path="hardware/rockchip/hdmicec" remote="rk" revision="5883b7812a9e54fd90768074fb3c00020db2bac3"/>
   <project name="rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer" remote="rk" revision="51f89d239ef7ea29071fc8425ae3377eb193b602"/>
@@ -473,7 +473,7 @@
   <project name="rk/hardware/rk29/mobicore" path="hardware/rockchip/mobicore" remote="rk" revision="745d6a5ed290e58af0a0cef25dbdfce1e716b8fd"/>
   <project name="rk/hardware/rk29/power" path="hardware/rockchip/power" remote="rk" revision="b4f20e29f6faeb91e3d7e740c7efb8d074ed1081"/>
   <project name="rk/hardware/rk29/sensor" path="hardware/rockchip/sensor" remote="rk" revision="e8198092253c7cb5897482fe423278b48c625fe2"/>
-  <project name="rk/kernel" path="kernel" remote="rk" revision="3d22dd5f7a58fc4455e3cb2bfdfd8a01e714d951" upstream="1ec2791560427299986d2a0a3d47fa3adc3b9048"/>
+  <project name="rk/kernel" path="kernel" remote="rk" revision="242c3f8f0d8964ef55f5e0fbd27a7ff87aaf8972" upstream="80f6d15b9d2d8c2dd0e80f757497329e2df61a27"/>
   <project groups="pdk" name="rk/platform/external/bluetooth_bplus/bluedroid" path="external/bluetooth_bplus/bluedroid" remote="rk" revision="f8f54953a5b72d81d10c5a5af7531df39c0b2a0b"/>
   <project groups="pdk" name="rk/platform/external/bluetooth_rtk/bluedroid" path="external/bluetooth_rtk/bluedroid" remote="rk" revision="1cc9f48ab93ced53b07fd5acc4f5f4c7b3078bb3"/>
   <project groups="pdk" name="rk/platform/external/broadcom_bplus" path="external/broadcom_bplus" remote="rk" revision="dcb4b786604b98fe857dc5c99fcab6477e41c664"/>
@@ -481,16 +481,16 @@
   <project name="rk/platform/external/mac" path="external/mac" remote="rk" revision="2da047bf84573702d7fcf75d26434534a8b078e5"/>
   <project name="rk/platform/external/mmc-utils" path="external/mmc-utils" remote="rk" revision="d91ae2d617619c0e39c5c6d346b7e8d859f00f03"/>
   <project name="rk/platform/external/ntfs-3g" path="external/ntfs-3g" remote="rk" revision="29a392a50882e06a2bf0c1f64487fefdf0cf28c4"/>
-  <project name="rk/platform/external/rk-pcba-test" path="external/rk-pcba-test" remote="rk" revision="9b6d891d114b09a7a0d46d0e11c755ce17581660"/>
+  <project name="rk/platform/external/rk-pcba-test" path="external/rk-pcba-test" remote="rk" revision="b6c38feb9a2d86f00635be4bbbdd631ceff5a4a8"/>
   <project name="rk/platform/external/rp-pppoe" path="external/rp-pppoe" remote="rk" revision="ed8335dfa801d0a18287992c3f1a3cd22d8e7b8b"/>
   <project name="rk/platform/external/wlan_loader" path="external/wlan_loader" remote="rk" revision="392a33acdd0494966f22a0b24338ccf8adbe003f"/>
   <project groups="pdk" name="rk/platform/external/wpa_supplicant_8_esp" path="external/wpa_supplicant_8_esp" remote="rk" revision="72e2871de815a3407f59ebd82305b139ef9cbb23"/>
   <project groups="pdk" name="rk/platform/external/wpa_supplicant_8_rtl" path="external/wpa_supplicant_8_rtl" remote="rk" revision="c86accfe56aa88ad833445681ec6c500f2a17d89"/>
   <project name="rk/platform/hardware/broadcom/nfc" path="hardware/broadcom/nfc" remote="rk" revision="4a689359b785aab67f5c198adb630d1eb3637d26"/>
   <project name="rk/platform/packages/apps/Bluetooth_bplus" path="packages/apps/Bluetooth_bplus" remote="rk" revision="4d0ab92c7ec0fe69ffa8a8f80082e7a7fcc76cb5"/>
-  <project groups="pdk" name="rk/platform/system/displayd" path="system/displayd" remote="rk" revision="b2a8213e68b3eb8e90f75075b8542e5800b4e663" upstream="6d661dfaade8312ab9b3f58e0eb3267490132412"/>
-  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="271fb8e7c6e8928d8968079a5d2d7c27d870ef8f" upstream="e16e6f26614a11965f9e13d39aa51f878593f0c3"/>
+  <project groups="pdk" name="rk/platform/system/displayd" path="system/displayd" remote="rk" revision="6d661dfaade8312ab9b3f58e0eb3267490132412"/>
+  <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk" revision="9bfe82c600b9eeedcd2fa6f6f7e9955c89bab864" upstream="e16e6f26614a11965f9e13d39aa51f878593f0c3"/>
   <project name="rk/platform/vendor/widevine" path="vendor/widevine" remote="rk" revision="1f106caacaf5f095714e7af062956645e2625c7c"/>
   <project name="rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926"/>
-  <project name="rk/u-boot" path="u-boot" remote="rk" revision="f2a66f11348086873a1bbf05fbc7a96d16ccad4c" upstream="2146061df0dc0ce080022b0b28c94d97361b998a"/>
+  <project name="rk/u-boot" path="u-boot" remote="rk" revision="c5d269fc62faa8144b5239dce94caf370a65f95a" upstream="2146061df0dc0ce080022b0b28c94d97361b998a"/>
 </manifest>
