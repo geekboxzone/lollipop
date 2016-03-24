@@ -66,7 +66,6 @@ external/chromium_org/third_party/WebKit
 external/chromium_org/third_party/angle
 external/chromium_org/third_party/boringssl/src
 external/chromium_org/third_party/brotli/src
-external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille
 external/chromium_org/third_party/freetype
 external/chromium_org/third_party/icu
 external/chromium_org/third_party/leveldatabase/src
